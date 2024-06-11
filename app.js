@@ -21,7 +21,7 @@ function logIn() {
         if (uP == rightPass) {
             checkflag = true
             localStorage.setItem('flag', checkflag)
-            window.open('login.html')
+            window.location.href = 'login.html'
             // alert('login successfull')
 
         } else {

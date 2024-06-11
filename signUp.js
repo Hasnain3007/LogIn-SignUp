@@ -22,7 +22,7 @@ function signUp() {
     // setting flag
     localStorage.setItem('flag', flag)
 
-    window.open('index.html')
+    window.location.href='index.html'
 
 }
 signup.addEventListener('click', signUp)
