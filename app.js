@@ -21,7 +21,7 @@ function logIn() {
         if (uP == rightPass) {
             checkflag = true
             localStorage.setItem('flag', checkflag)
-            window.location.href = 'login.html'
+            window.location.href = 'signin.html'
             // alert('login successfull')
 
         } else {
@@ -35,4 +35,5 @@ function logIn() {
 
 }
 login.addEventListener('click', logIn)
+
 

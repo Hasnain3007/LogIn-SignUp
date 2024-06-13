@@ -14,15 +14,16 @@ function signUp() {
     var user = userName.value
     var em = email.value
     var pass = password.value
-    var flag = false
+    // var flag = false
 
     localStorage.setItem('userName', user)
     localStorage.setItem('email', em)
     localStorage.setItem('password', pass)
     // setting flag
-    localStorage.setItem('flag', flag)
+    localStorage.setItem('flag', false)
 
-    window.location.href='index.html'
+    window.location.href = 'index.html'
 
 }
 signup.addEventListener('click', signUp)
+
